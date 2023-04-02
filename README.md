@@ -30,29 +30,35 @@ The tests below were conducted to achieve an optimized neural network model for 
 ##### Attempt 1: 
 ReLU activation function, 100 epochs, 2 hidden layers with 80 and 20 neurons.
 **Loss: 0.5603, Accuracy: 0.7287**
+![1-Results](https://github.com/rchascall/deep-learning-challenge/blob/main/images/attempt_1.png)
 
 ##### Attempt 2: 
 ReLU activation function, 100 epochs, 2 hidden layers with 120 and 30 neurons.
 **Loss: 0.5624, Accuracy: 0.7261**
 * *Increased the number of neurons in each layer to explore if a larger model improves accuracy. However, it slightly decreased accuracy.*
+![2-Results](https://github.com/rchascall/deep-learning-challenge/blob/main/images/attempt_2.png)
 
 ##### Attempt 3: 
 ReLU activation function, 120 epochs, 2 hidden layers with 120 and 30 neurons.
 **Loss: 0.5679, Accuracy: 0.7284**
 * *Increased the number of epochs to test if additional training improves the model's performance. The accuracy was slightly better than Model 2, but still lower than Model 1.*
+![3-Results](https://github.com/rchascall/deep-learning-challenge/blob/main/images/attempt_3.png)
 
 ##### Attempt 4: Leaky ReLU activation function, 100 epochs, 2 hidden layers with 80 and 20 neurons.
 **Loss: 0.558, Accuracy: 0.7317**
 * *Tested an alternative activation function, Leaky ReLU. This model achieved the highest accuracy among the tested models.*
+![4-Results](https://github.com/rchascall/deep-learning-challenge/blob/main/images/attempt_4.png)
 
 ##### Attempt 5: 
 Leaky ReLU activation function, 120 epochs, 2 hidden layers with 80 and 20 neurons.
 **Loss: 0.5609, Accuracy: 0.7299**
 * *Increased the number of epochs with the Leaky ReLU activation function to test if additional training improves performance. The accuracy was slightly lower than Model 4.*
+![5-Results](https://github.com/rchascall/deep-learning-challenge/blob/main/images/attempt_5.png)
 
 ##### Attempt 6 (Keras Tuner optimized): tanh activation function, 100 epochs, 3 hidden layers with 9, 1, and 5 neurons.
 **Loss: 0.5578, Accuracy: 0.7261**
 * *Tested a model with a different activation function (tanh) and an additional hidden layer, as recommended by the Keras Tuner. This model showed the lowest loss value but had lower accuracy compared to Models 4 and 5.*
+![6-Results](https://github.com/rchascall/deep-learning-challenge/blob/main/images/attempt_6.png)
 
 #### Technologies used:
 1.	Python
