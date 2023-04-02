@@ -9,9 +9,9 @@ The neural network models tested below were designed using TensorFlow and Keras 
 
 #### Results:
 ##### Data Preprocessing:
-* Target variable
+* Target variable:
   * IS_SUCCESSFUL
-* Feature variables
+* Feature variables:
   * APPLICATION_TYPE
   * AFFILIATION
   * CLASSIFICATION
